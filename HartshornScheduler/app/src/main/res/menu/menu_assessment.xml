@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hartshornSceduler.AssessmentActivity">
+    <item
+        android:id="@+id/sharing"
+        android:orderInCategory="100"
+        android:title="Sharing"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notificationsStart"
+        android:orderInCategory="100"
+        android:title="Notify Start Date"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notificationsEnd"
+        android:orderInCategory="100"
+        android:title="Notify End Date"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/deleteCourse"
+        android:orderInCategory="101"
+        android:title="Delete" />
+</menu>
